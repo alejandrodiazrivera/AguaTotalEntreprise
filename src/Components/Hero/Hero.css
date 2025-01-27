@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; /* Ensure the hero container is positioned relative */
+    position: relative;
 }
 
 .offer-sign {
@@ -20,42 +20,27 @@
     font-size: 3vw;
     font-weight: bold;
     text-align: center;
-    padding: 2vh 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
     clip-path: polygon(97.87% 64.45%,90.17% 70.29%,90.04% 79.95%,80.8% 82.8%,77.38% 91.84%,67.73% 91.36%,61.42% 98.68%,52.51% 94.93%,44.08% 99.65%,36.99% 93.08%,27.46% 94.63%,23.04% 86.03%,13.55% 84.23%,12.35% 74.64%,4.04% 69.7%,6.19% 60.28%,0.08% 52.79%,5.32% 44.67%,2.13% 35.55%,9.83% 29.71%,9.96% 20.05%,19.2% 17.2%,22.62% 8.16%,32.27% 8.64%,38.58% 1.32%,47.49% 5.07%,55.92% 0.35%,63.01% 6.92%,72.54% 5.37%,76.96% 13.97%,86.45% 15.77%,87.65% 25.36%,95.96% 30.3%,93.81% 39.72%,99.92% 47.21%,94.68% 55.33%);
     box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 15vw;
-    height: 15vw;
+    width: 15vw; /* Adjust size with viewport width */
+    aspect-ratio: 1; /* Ensure it stays square */
     animation: myAnim 4s ease 0s infinite normal forwards;
-    position: relative;
     cursor: pointer;
+    position: relative;
 }
 
-/* Rotating text slightly */
-.offer-sign-text-large {
-    font-size: 24px; /* Adjust the font size as needed */
-    font-weight: bold;
-    display: inline-block;
-    transform: rotate(-10deg);
-  }
-  
-  .offer-sign-text-small {
-    font-size: 18px; /* Adjust the font size as needed */
-    display: inline-block;
-    transform: rotate(-10deg);
-  }
-
-/* Inner shape centered and smaller */
+/* Inner shape centered and proportional */
 .offer-sign .inner-shape {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 13.5vw; /* Smaller size compared to the parent */
-    height: 13.5vw;
+    width: 90%; /* Relative to the parent .offer-sign */
+    height: 90%; /* Maintain proportional size */
     background-color: red;
     clip-path: polygon(97.87% 64.45%,90.17% 70.29%,90.04% 79.95%,80.8% 82.8%,77.38% 91.84%,67.73% 91.36%,61.42% 98.68%,52.51% 94.93%,44.08% 99.65%,36.99% 93.08%,27.46% 94.63%,23.04% 86.03%,13.55% 84.23%,12.35% 74.64%,4.04% 69.7%,6.19% 60.28%,0.08% 52.79%,5.32% 44.67%,2.13% 35.55%,9.83% 29.71%,9.96% 20.05%,19.2% 17.2%,22.62% 8.16%,32.27% 8.64%,38.58% 1.32%,47.49% 5.07%,55.92% 0.35%,63.01% 6.92%,72.54% 5.37%,76.96% 13.97%,86.45% 15.77%,87.65% 25.36%,95.96% 30.3%,93.81% 39.72%,99.92% 47.21%,94.68% 55.33%);
     z-index: -1;
@@ -67,19 +52,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 14vw; /* Slightly smaller than the parent */
-    height: 14vw;
+    width: 95%; /* Slightly smaller than .offer-sign */
+    height: 95%;
     background-color: white;
     clip-path: polygon(97.87% 64.45%,90.17% 70.29%,90.04% 79.95%,80.8% 82.8%,77.38% 91.84%,67.73% 91.36%,61.42% 98.68%,52.51% 94.93%,44.08% 99.65%,36.99% 93.08%,27.46% 94.63%,23.04% 86.03%,13.55% 84.23%,12.35% 74.64%,4.04% 69.7%,6.19% 60.28%,0.08% 52.79%,5.32% 44.67%,2.13% 35.55%,9.83% 29.71%,9.96% 20.05%,19.2% 17.2%,22.62% 8.16%,32.27% 8.64%,38.58% 1.32%,47.49% 5.07%,55.92% 0.35%,63.01% 6.92%,72.54% 5.37%,76.96% 13.97%,86.45% 15.77%,87.65% 25.36%,95.96% 30.3%,93.81% 39.72%,99.92% 47.21%,94.68% 55.33%);
     z-index: -2;
 }
 
-
 @keyframes myAnim {
     0% {
         animation-timing-function: ease-out;
         transform: scale(1);
-        transform-origin: center center;
     }
 
     10% {
@@ -103,81 +86,33 @@
     }
 }
 
-.hero-text {
-    text-align: center;
-    max-width: 800px;
+/* Adjusted text styles */
+.offer-sign-text-large {
+    font-size: 2vw; /* Scale text proportionally */
+    font-weight: bold;
+    transform: rotate(-10deg);
 }
 
-.hero-text h1 {
-    font-size: 60px;
-    font-weight: 600;
+.offer-sign-text-small {
+    font-size: 1.5vw; /* Scale smaller text */
+    transform: rotate(-10deg);
 }
 
-.hero-text p {
-    max-width: 700px;
-    margin: 10px auto 20px;
-    line-height: 1.4;
-}
-
-/* General button styles */
-.btn {
-    display: inline-flex;
-    align-items: center;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-}
-
-/* Hover effect for the button */
-.btn:hover {
-    background-color: #0056b3; /* Change to your desired color */
-    color: #fff; /* Change text color if needed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-}
-
-/* Arrow shift effect */
-.btn img {
-    margin-left: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.btn:hover img {
-    transform: translateX(10px); /* Shift the arrow to the left */
-}
-
-/*------------Media query--------------*/
-@media (max-width: 850px) {
-    .hero-text h1 {
-        font-size: 40px;
-    }
-}
-
+/* Responsive adjustments */
 @media (max-width: 650px) {
-    .hero-text h1 {
-        font-size: 30px;
-        max-width: 400px;
-        margin: auto;
-    }
-
-    .hero-text p {
-        font-size: 14px;
-        margin: 15px auto 30px;
-    }
-
-    .offer-sign-text {
-        font-size:2vh;
-    }
-}
-
-@media (max-width: 450px) {
-    .offer-sign-text {
-    font-size:2vh;
-}
     .offer-sign {
-        height: 20vh;
-        width: 20vh;
+        width: 30vw; /* Smaller sizes for small screens */
+        aspect-ratio: 1;
+    }
+    .offer-sign .inner-shape,
+    .offer-sign .outer-shape {
+        width: 85%; /* Adjust shapes proportionally */
+        height: 85%;
+    }
+    .offer-sign-text-large {
+        font-size: 3vh; /* Use viewport height for small screens */
+    }
+    .offer-sign-text-small {
+        font-size: 2vh;
     }
 }
