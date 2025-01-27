@@ -1,5 +1,5 @@
 .hero {
-    width: 100%;
+    width: 105%;
     min-height: 100vh;
     background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),url('../../assets/Hero.png');
     background-size: cover;
@@ -11,13 +11,16 @@
     position: relative;
 }
 
+.btn{
+    color:green;
+}
 .offer-sign {
     position: absolute;
     top: -20vh;
     right: -60vw;
     background-color: red;
     color: rgb(255, 255, 255);
-    font-size: 3vw;
+    font-size: 20px; /* Set a fixed font size */
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -26,7 +29,8 @@
     clip-path: polygon(97.87% 64.45%,90.17% 70.29%,90.04% 79.95%,80.8% 82.8%,77.38% 91.84%,67.73% 91.36%,61.42% 98.68%,52.51% 94.93%,44.08% 99.65%,36.99% 93.08%,27.46% 94.63%,23.04% 86.03%,13.55% 84.23%,12.35% 74.64%,4.04% 69.7%,6.19% 60.28%,0.08% 52.79%,5.32% 44.67%,2.13% 35.55%,9.83% 29.71%,9.96% 20.05%,19.2% 17.2%,22.62% 8.16%,32.27% 8.64%,38.58% 1.32%,47.49% 5.07%,55.92% 0.35%,63.01% 6.92%,72.54% 5.37%,76.96% 13.97%,86.45% 15.77%,87.65% 25.36%,95.96% 30.3%,93.81% 39.72%,99.92% 47.21%,94.68% 55.33%);
     box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 15vw; /* Adjust size with viewport width */
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height to ensure it stays square */
     aspect-ratio: 1; /* Ensure it stays square */
     animation: myAnim 4s ease 0s infinite normal forwards;
     cursor: pointer;
@@ -88,31 +92,13 @@
 
 /* Adjusted text styles */
 .offer-sign-text-large {
-    font-size: 2vw; /* Scale text proportionally */
+    font-size: 20px; /* Scale text proportionally */
     font-weight: bold;
     transform: rotate(-10deg);
 }
 
 .offer-sign-text-small {
-    font-size: 1.5vw; /* Scale smaller text */
+    font-size: 15px; /* Scale smaller text */
     transform: rotate(-10deg);
 }
 
-/* Responsive adjustments */
-@media (max-width: 650px) {
-    .offer-sign {
-        width: 30vw; /* Smaller sizes for small screens */
-        aspect-ratio: 1;
-    }
-    .offer-sign .inner-shape,
-    .offer-sign .outer-shape {
-        width: 85%; /* Adjust shapes proportionally */
-        height: 85%;
-    }
-    .offer-sign-text-large {
-        font-size: 3vh; /* Use viewport height for small screens */
-    }
-    .offer-sign-text-small {
-        font-size: 2vh;
-    }
-}
