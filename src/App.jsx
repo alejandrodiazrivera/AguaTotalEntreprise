@@ -29,8 +29,12 @@ const App = () => {
         <Contact/>
         <Footer/>
     </div>
-    <VideoPlayer playState={playState} setPlayState={setPlayState}/>
-  </div>
+    <VideoPlayer
+        playState={playState}
+        setPlayState={setPlayState}
+        videoUrl="https://www.youtube.com/watch?v=BSLHjomOwlM" // Replace with your YouTube video URL
+      />
+    </div>
   )  
 }
 
