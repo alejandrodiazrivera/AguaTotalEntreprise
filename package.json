@@ -1,7 +1,7 @@
 {
   "name": "agua-total-entreprise",
   "private": true,
-  "homepage": "https://alejandrodiazrivera.github.io/AguaTotalEntreprise",
+  
   "version": "0.0.0",
   "type": "module",
   "scripts": {
