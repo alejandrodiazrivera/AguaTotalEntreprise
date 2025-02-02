@@ -9,13 +9,19 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer  from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
+// Add at the top
+import { HashRouter } from 'react-router-dom';
+
+// Wrap your entire app
+const App = () => {
 
 const App = () => {
   const [playState, setPlayState] = React.useState(false);
 
   return (
-    <div>
-      <Navbar/>
+    <HashRouter>
+      <div>
+        <Navbar/>
       <Hero/>
       <div className='container'>
         <Title subTitle='Vores Serviceydelser' title='Hvad Vi Tilbyder'/>
@@ -35,7 +41,8 @@ const App = () => {
         videoUrl="https://www.youtube.com/watch?v=BSLHjomOwlM" // Replace with your YouTube video URL
       />
     </div>
-  )  
-}
+    </HashRouter>
+  )
+}}
 
 export default App
