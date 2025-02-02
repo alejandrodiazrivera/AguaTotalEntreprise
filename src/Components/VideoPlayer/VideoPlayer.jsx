@@ -1,20 +1,28 @@
-import React, { useRef, useEffect } from 'react';
-import ReactPlayer from 'react-player';
-import './VideoPlayer.css';
+import React, { useRef, useEffect } from 'react'
+import './VideoPlayer.css'
+import video from '../../assets/teaser.mp4'
 
-const VideoPlayer = ({ playState, setPlayState, videoUrl }) => {
+const VideoPlayer = ({ playState, setPlayState }) => {
+
     const player = useRef(null);
+    const videoRef = useRef(null);
 
     const closePlayer = (e) => {
         if (e.target === player.current) {
             setPlayState(false);
+            if (videoRef.current) {
+                videoRef.current.pause();
+            }
         }
-    };
+    }
 
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.key === 'Escape') {
                 setPlayState(false);
+                if (videoRef.current) {
+                    videoRef.current.pause();
+                }
             }
         };
 
@@ -27,15 +35,9 @@ const VideoPlayer = ({ playState, setPlayState, videoUrl }) => {
 
     return (
         <div className={`video-player ${playState ? "" : "hide"}`} ref={player} onClick={closePlayer}>
-            <ReactPlayer
-                url={videoUrl}
-                playing={playState}
-                controls
-                width="100%"
-                height="100%"
-            />
+            <video ref={videoRef} src={video} autoPlay muted controls></video>
         </div>
-    );
-};
+    )
+}
 
-export default VideoPlayer;
+export default VideoPlayer
