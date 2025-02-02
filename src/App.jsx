@@ -9,6 +9,11 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer  from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
+// Before
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// After
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   const [playState, setPlayState] = React.useState(false);
