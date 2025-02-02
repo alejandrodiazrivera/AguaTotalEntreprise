@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    middlewareMode: 'html',
     configureServer: (server) => {
       server.middlewares.use((req, res, next) => {
         if (res.statusCode === 404) {
