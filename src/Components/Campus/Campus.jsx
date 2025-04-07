@@ -35,7 +35,7 @@ const Campus = () => {
         <img src={gallery1} alt='' />
         <img src={gallery2} alt='' />
         <img src={gallery3} alt='' />
-        <img src={gallery4} alt='' />
+
       </div>
       <button className='btn dark-btn' onClick={toggleGalleryPopup}>
         Se mere her <img src={white_arrow} alt='' />
