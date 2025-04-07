@@ -47,7 +47,7 @@ a:not(btn contact-btn):hover::before {
 }
 
 .logo {
-    transform: scale(1.5)
+    transform: scale(3.5)
 }
 
 nav ul li{
