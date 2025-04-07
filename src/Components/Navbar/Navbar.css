@@ -46,8 +46,10 @@ a:not(btn contact-btn):hover::before {
 }
 
 .logo {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px; /*
+     Adjust the width as needed */
+    /*height: auto; /* Maintain aspect ratio */
+    height: 150px;
 }
 
 nav ul li{
