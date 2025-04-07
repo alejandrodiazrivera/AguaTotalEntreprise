@@ -47,7 +47,11 @@ a:not(btn contact-btn):hover::before {
 }
 
 .logo {
-    transform: scale(3.5)
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
 }
 
 nav ul li{
