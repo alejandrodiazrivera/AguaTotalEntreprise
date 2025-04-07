@@ -46,7 +46,7 @@ a:not(btn contact-btn):hover::before {
 }
 
 .logo {
-    width: 1050px; /* Adjust the width as needed */
+    width: 50px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
