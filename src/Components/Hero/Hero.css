@@ -1,7 +1,7 @@
 .hero {
     width: 105%;
     min-height: 100vh;
-    background: linear-gradient(#075ca9, lightblue), url('../../assets/Hero.png');
+    background: linear-gradient(#075ca9, pink), url('../../assets/Hero.png');
     background-size: cover;
     background-position: center;
     color: #fff;
