@@ -109,7 +109,7 @@ border-radius: 10px;
 /*-----media query------*/
 @media (max-width: 1000px){
     .logo {
-        width: 150px; /* Adjust the width as needed */
+        width: 1520px; /* Adjust the width as needed */
     }
     nav ul li{
         margin: 10px 15px;
