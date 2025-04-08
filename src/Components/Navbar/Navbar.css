@@ -62,7 +62,7 @@ nav ul li{
 }
 
 .dark-nav{
-    background-color: white;
+    background-color: blue;
     transition: 0.5s;
 }
 .menu_icon{
@@ -129,7 +129,7 @@ border-radius: 10px;
         top: 0;
         right: 0px;
         bottom:0;
-        background: #075ca9;
+        background: pink;
         z-index: -1;
         width: 200px;
         padding-top: 70px;
