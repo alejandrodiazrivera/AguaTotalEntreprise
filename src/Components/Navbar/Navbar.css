@@ -49,7 +49,7 @@ a:not(btn contact-btn):hover::before {
 .logo {
     img {
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
       }
 }
@@ -62,7 +62,7 @@ nav ul li{
 }
 
 .dark-nav{
-    background-color: blue;
+    background-color: pink;
     transition: 0.5s;
 }
 .menu_icon{
