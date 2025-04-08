@@ -24,7 +24,7 @@ function Hero() {
 
       {/* Hero Text Section */}
       <div className="hero-text">
-        <h1>AGUA TOTAL ENTERPRISE</h1>
+        <h1>AGUA TOTALINTERPRISE</h1>
         <p>
           Kvalitetshåndværk til tiden - Lad os gøre dit projekt nemt, effektivt og problemfrit.
         </p>
