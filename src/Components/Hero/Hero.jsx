@@ -26,7 +26,7 @@ function Hero() {
       <div className="hero-text">
         <h1>AGUA TOTALINTERPRISE</h1>
         <p>
-          Kvalitetshåndværk til tiden @@- Lad os gøre dit projekt nemt, effektivt og problemfrit.
+          Kvalitetshåndværk til tiden - Lad os gøre dit projekt nemt, effektivt og problemfrit.
         </p>
         <Link to='program' smooth={true} offset={-240} duration={500} className='btn'>
           Se mere <img src={dark_arrow} alt='' />
