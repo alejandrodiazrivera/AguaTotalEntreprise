@@ -49,7 +49,7 @@ a:not(btn contact-btn):hover::before {
 .logo {
     img {
         width: 100%;
-        max-width: 300px;
+        max-width: 400px;
         height: auto;
       }
 }
