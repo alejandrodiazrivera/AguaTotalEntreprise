@@ -14,7 +14,7 @@ function Hero() {
         className="offer-sign"
       > 
         <div className="offer-sign-text">
-          <span className="offer-sign-text-large">RING NU</span>
+          <span className="offer-sign-text-large">Uforpligtende tilbud</span>
           <br />
           <span className="offer-sign-text-small">28 49 34 81</span>
         </div>
