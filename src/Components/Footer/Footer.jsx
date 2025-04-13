@@ -16,7 +16,7 @@ export const Footer = () => {
   };
   return (
     <div className='footer'>
-    <p>Aguas Total Entreprise © 2024 Alle rettigheder forbeholdes │ CVR: 40960112</p>
+    <p>AGUA TOTALINTERPRISE © 2024 Alle rettigheder forbeholdes │ CVR: 40960112</p>
     <ul>
       <li onClick={togglePrivacyPopup}>Cookie- og privatlivspolitik</li>
     </ul>

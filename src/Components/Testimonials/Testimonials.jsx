@@ -40,7 +40,7 @@ const Testimonials = () => {
                                 <span>Slotsherrensvej, Rødovre</span>
                             </div>
                         </div>
-                        <p>Jeg valgte Agua Total til at renovere mit badeværelse, og jeg kunne ikke være mere tilfreds! De håndterede både VVS- og flisearbejdet med en imponerende præcision og professionalisme. Hele processen var gennemsigtig, og de lyttede virkelig til mine ønsker. Resultatet er ikke bare smukt, men også holdbart – jeg kan tydeligt mærke deres fokus på kvalitet. Kan varmt anbefales!</p>
+                        <p>Jeg valgte Agua totalinterprise til at renovere mit badeværelse, og jeg kunne ikke være mere tilfreds! De håndterede både VVS- og flisearbejdet med en imponerende præcision og professionalisme. Hele processen var gennemsigtig, og de lyttede virkelig til mine ønsker. Resultatet er ikke bare smukt, men også holdbart – jeg kan tydeligt mærke deres fokus på kvalitet. Kan varmt anbefales!</p>
                     </div>
                 </li>
                 <li>
@@ -52,7 +52,7 @@ const Testimonials = () => {
                                 <span>Løgstørgade, København Ø</span>
                             </div>
                         </div>
-                        <p>Vi brugte Agua Total Entreprise til at bygge en ny terrasse i vores have, og de gjorde et fantastisk stykke arbejde. Teamet var altid venligt, pålideligt og professionelle fra start til slut. De overholdt tidsplanen og gik aldrig på kompromis med kvaliteten. Terrassen er nu vores yndlingssted, og vi får så mange komplimenter fra gæster. Tak for en fantastisk oplevelse!</p>
+                        <p>Vi brugte Agua totalinterprise til at bygge en ny terrasse i vores have, og de gjorde et fantastisk stykke arbejde. Teamet var altid venligt, pålideligt og professionelle fra start til slut. De overholdt tidsplanen og gik aldrig på kompromis med kvaliteten. Terrassen er nu vores yndlingssted, og vi får så mange komplimenter fra gæster. Tak for en fantastisk oplevelse!</p>
                     </div>
                 </li>
                 <li>
@@ -64,7 +64,7 @@ const Testimonials = () => {
                                 <span>Sønderlundvej, Herlev</span>
                             </div>
                         </div>
-                        <p>Jeg havde brug for akut hjælp med en vandskade, og Agua Total Entreprise rykkede hurtigt ud. De håndterede situationen effektivt og professionelt, og hele teamet var ekstremt imødekommende. Det var en stor lettelse at opleve deres ansvarlighed og ekspertise i sådan en presset situation. Deres arbejde har virkelig skabt værdi for os, og jeg vil helt sikkert bruge dem igen i fremtiden!</p>
+                        <p>Jeg havde brug for akut hjælp med en vandskade, og Agua totalinterprise rykkede hurtigt ud. De håndterede situationen effektivt og professionelt, og hele teamet var ekstremt imødekommende. Det var en stor lettelse at opleve deres ansvarlighed og ekspertise i sådan en presset situation. Deres arbejde har virkelig skabt værdi for os, og jeg vil helt sikkert bruge dem igen i fremtiden!</p>
                     </div>
                 </li>
                 <li>
